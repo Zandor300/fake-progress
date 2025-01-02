@@ -6,7 +6,7 @@ interface Options {
     parentEnd?: number;
 }
 
-declare module 'fake-progress' {
+declare module '@zandor300/fake-progress' {
     export = FakeProgress;
 
     class FakeProgress {
