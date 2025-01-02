@@ -1,5 +1,7 @@
-![Travis build status](https://www.travis-ci.org/piercus/fake-progress.svg?branch=master)
+![GitLab CI build status](https://git.zsinfo.nl/zandor300/fake-progress/badges/master/pipeline.svg)
 # Fakeprogress
+
+This is a fork of [piercus's fake-progress](https://github.com/piercus/fake-progress)
 
 Simulate smooth progression easily and combine real progression and fake progression.
 
