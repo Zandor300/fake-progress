@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Fake a progress bar using an exponential progress function",
   "main": "index.js",
+  "types": "types/index.d.ts",
   "publishConfig": {
     "access": "public"
   },
