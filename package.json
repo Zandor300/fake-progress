@@ -1,5 +1,5 @@
 {
-  "name": "fake-progress",
+  "name": "@zandor300/fake-progress",
   "version": "1.0.4",
   "description": "Fake a progress bar using an exponential progress function",
   "main": "index.js",
