@@ -1,3 +1,10 @@
+## [1.0.2](https://git.zsinfo.nl/Zandor300/fake-progress/compare/v1.0.1...v1.0.2) (2025-01-02)
+
+
+### Bug Fixes
+
+* Publish TypeScript types. ([aaaa6ac](https://git.zsinfo.nl/Zandor300/fake-progress/commit/aaaa6ace72ca0655893dcf8a9c43d85a7ea3c794))
+
 ## [1.0.1](https://git.zsinfo.nl/Zandor300/fake-progress/compare/v1.0.0...v1.0.1) (2025-01-02)
 
 
