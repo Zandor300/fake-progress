@@ -1,5 +1,5 @@
 ![GitLab CI build status](https://git.zsinfo.nl/zandor300/fake-progress/badges/master/pipeline.svg)
-# Fakeprogress
+# @zandor300/fake-progress
 
 This is a fork of [piercus's fake-progress](https://github.com/piercus/fake-progress)
 
@@ -8,7 +8,7 @@ Simulate smooth progression easily and combine real progression and fake progres
 ## Install
 
 ```
-npm install fake-progress
+npm install @zandor300/fake-progress
 ```
 
 ## Basic example
