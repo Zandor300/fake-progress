@@ -1,6 +1,6 @@
 {
   "name": "@zandor300/fake-progress",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Fake a progress bar using an exponential progress function",
   "main": "index.js",
   "publishConfig": {
