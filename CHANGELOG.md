@@ -1,3 +1,10 @@
+## [1.0.3](https://git.zsinfo.nl/Zandor300/fake-progress/compare/v1.0.2...v1.0.3) (2025-01-02)
+
+
+### Bug Fixes
+
+* Fix TypeScript types for fork. ([3d5a1f8](https://git.zsinfo.nl/Zandor300/fake-progress/commit/3d5a1f8e3e4979dbd1715126b0d471dcce1984ad))
+
 ## [1.0.2](https://git.zsinfo.nl/Zandor300/fake-progress/compare/v1.0.1...v1.0.2) (2025-01-02)
 
 
