@@ -277,12 +277,17 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-22.2.0.tgz#75aa7dcd440821d99def6a60b5f014207ae4968e"
   integrity sha512-QBhVjcUa9W7Wwhm6DBFu6ZZ+1/t/oYxqc2tp81Pi41YNuJinbFRx8B133qVOrAaBbF7D/m0Et6f9/pZt9Rc+tg==
 
-"@octokit/plugin-paginate-rest@^11.0.0":
-  version "11.3.6"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-11.3.6.tgz#82f33c87464202423c2a89d5cc8c38761f4aa86b"
-  integrity sha512-zcvqqf/+TicbTCa/Z+3w4eBJcAxCFymtc0UAIsR3dEVoNilWld4oXdscQ3laXamTszUZdusw97K8+DrbFiOwjw==
+"@octokit/openapi-types@^25.0.0":
+  version "25.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-25.0.0.tgz#adeead36992abf966e89dcd53518d8b0dc910e0d"
+  integrity sha512-FZvktFu7HfOIJf2BScLKIEYjDsw6RKc7rBJCdvCTfKsVnx2GEB/Nbzjr29DUdb7vQhlzS/j8qDzdditP0OC6aw==
+
+"@octokit/plugin-paginate-rest@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-12.0.0.tgz#4f3c1caefd6f85abb4e95c1c0a38af4568cb4dae"
+  integrity sha512-MPd6WK1VtZ52lFrgZ0R2FlaoiWllzgqFHaSZxvp72NmoDeZ0m8GeJdg4oB6ctqMTYyrnDYp592Xma21mrgiyDA==
   dependencies:
-    "@octokit/types" "^13.6.2"
+    "@octokit/types" "^14.0.0"
 
 "@octokit/plugin-retry@^7.0.0":
   version "7.1.2"
@@ -293,12 +298,12 @@
     "@octokit/types" "^13.0.0"
     bottleneck "^2.15.3"
 
-"@octokit/plugin-throttling@^9.0.0":
-  version "9.3.2"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-9.3.2.tgz#cc05180e45e769d6726c5faed157e9ad3b6ab8c0"
-  integrity sha512-FqpvcTpIWFpMMwIeSoypoJXysSAQ3R+ALJhXXSG1HTP3YZOIeLmcNcimKaXxTcws+Sh6yoRl13SJ5r8sXc1Fhw==
+"@octokit/plugin-throttling@^10.0.0":
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-10.0.0.tgz#3ca3c2d3b6e1deb263462f5d35ce6727527116ef"
+  integrity sha512-Kuq5/qs0DVYTHZuBAzCZStCzo2nKvVRo/TDNhCcpC2TKiOGz/DisXMCvjt3/b5kr6SCI1Y8eeeJTHBxxpFvZEg==
   dependencies:
-    "@octokit/types" "^13.0.0"
+    "@octokit/types" "^14.0.0"
     bottleneck "^2.15.3"
 
 "@octokit/request-error@^6.0.0", "@octokit/request-error@^6.0.1":
@@ -325,6 +330,13 @@
   integrity sha512-WpbZfZUcZU77DrSW4wbsSgTPfKcp286q3ItaIgvSbBpZJlu6mnYXAkjZz6LVZPXkEvLIM8McanyZejKTYUHipA==
   dependencies:
     "@octokit/openapi-types" "^22.2.0"
+
+"@octokit/types@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-14.0.0.tgz#bbd1d31e2269940789ef143b1c37918aae09adc4"
+  integrity sha512-VVmZP0lEhbo2O1pdq63gZFiGCKkm8PPp8AUOijlwPO6hojEVjspA0MWKP7E4hbvGxzFKNqKr6p0IYtOH/Wf/zA==
+  dependencies:
+    "@octokit/openapi-types" "^25.0.0"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -410,15 +422,15 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@^10.0.0":
-  version "10.3.5"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-10.3.5.tgz#112b6ee41fe78356359aa7ba9a1e98b68c8640fc"
-  integrity sha512-svvRglGmvqvxjmDgkXhrjf0lC88oZowFhOfifTldbgX9Dzj0inEtMLaC+3/MkDEmxmaQjWmF5Q/0CMIvPNSVdQ==
+"@semantic-release/github@^11.0.0":
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-11.0.2.tgz#92326cad57c4209c123a0f59fb1c5f042c068ac8"
+  integrity sha512-EhHimj3/eOSPu0OflgDzwgrawoGJIn8XLOkNS6WzwuTr8ebxyX976Y4mCqJ8MlkdQpV5+8T+49sy8xXlcm6uCg==
   dependencies:
     "@octokit/core" "^6.0.0"
-    "@octokit/plugin-paginate-rest" "^11.0.0"
+    "@octokit/plugin-paginate-rest" "^12.0.0"
     "@octokit/plugin-retry" "^7.0.0"
-    "@octokit/plugin-throttling" "^9.0.0"
+    "@octokit/plugin-throttling" "^10.0.0"
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
     debug "^4.3.4"
@@ -432,10 +444,10 @@
     p-filter "^4.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/gitlab@13.2.1":
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-13.2.1.tgz#f7d3367bf7992a88bb75f1b18e2fe5f9e7a27108"
-  integrity sha512-uvajKL3RbvouunvF6rWCEWmvYFW5tCq8irXvb2tW40cdI5rK22q9Uma1m/PxPtUTjggqfap86G0gst1hgeFuow==
+"@semantic-release/gitlab@13.2.5":
+  version "13.2.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/gitlab/-/gitlab-13.2.5.tgz#26e6af3e95f3dcd8b4d7c08ab5101d286f6fba89"
+  integrity sha512-HWpbFE5WfvnOvpj0cwicc/zd+i4s8FCqpbixU4sUPpMzsf47/bAIAgTm6DVYfbogGQHFluU2A6qRpLk7d0w7fw==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
@@ -1085,7 +1097,7 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.3.0:
+chalk@^5.3.0, chalk@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.4.1.tgz#1b48bf0963ec158dce2aacf69c093ae2dd2092d8"
   integrity sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==
@@ -2756,10 +2768,18 @@ import-fresh@^3.3.0:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
 
-import-from-esm@^1.0.3, import-from-esm@^1.3.1:
+import-from-esm@^1.0.3:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/import-from-esm/-/import-from-esm-1.3.4.tgz#39e97c84085e308fe66cf872a667046b45449df0"
   integrity sha512-7EyUlPFC0HOlBDpUFGfYstsU7XHxZJKAAMzCT8wZ0hMW7b+hG51LIKTDcsgtz8Pu6YC0HqRVbX+rVUtsGMUKvg==
+  dependencies:
+    debug "^4.3.4"
+    import-meta-resolve "^4.0.0"
+
+import-from-esm@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/import-from-esm/-/import-from-esm-2.0.0.tgz#184eb9aad4f557573bd6daf967ad5911b537797a"
+  integrity sha512-YVt14UZCgsX1vZQ3gKjkWVdBdHQ6eu3MPU1TBgL1H5orXe2+jWD006WCPPtOuwlQm10NuzOW5WawiF1Q9veW8g==
   dependencies:
     debug "^4.3.4"
     import-meta-resolve "^4.0.0"
@@ -3723,23 +3743,23 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
   integrity sha512-7N/q3lyZ+LVCp7PzuxrJr4KMbBE2hW7BT7YNia330OFxIf4d3r5zVpicP2650l7CPN6RM9zOJRl3NGpqSiw3Eg==
 
-marked-terminal@^7.0.0:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-7.2.1.tgz#9c1ae073a245a03c6a13e3eeac6f586f29856068"
-  integrity sha512-rQ1MoMFXZICWNsKMiiHwP/Z+92PLKskTPXj+e7uwXmuMPkNn7iTqC+IvDekVm1MPeC9wYQeLxeFaOvudRR/XbQ==
+marked-terminal@^7.3.0:
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-7.3.0.tgz#7a86236565f3dd530f465ffce9c3f8b62ef270e8"
+  integrity sha512-t4rBvPsHc57uE/2nJOLmMbZCQ4tgAccAED3ngXQqW6g+TxA488JzJ+FK3lQkzBQOI1mRV/r/Kq+1ZlJ4D0owQw==
   dependencies:
     ansi-escapes "^7.0.0"
     ansi-regex "^6.1.0"
-    chalk "^5.3.0"
+    chalk "^5.4.1"
     cli-highlight "^2.1.11"
     cli-table3 "^0.6.5"
-    node-emoji "^2.1.3"
+    node-emoji "^2.2.0"
     supports-hyperlinks "^3.1.0"
 
-marked@^12.0.0:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-12.0.2.tgz#b31578fe608b599944c69807b00f18edab84647e"
-  integrity sha512-qXUm7e/YKFoqFPYPa3Ukg9xlI5cyAtGmyEIzMfW//m6kXwCy2Ps9DYf5ioijFKQ8qyuscrHoY04iJGctu2Kg0Q==
+marked@^15.0.0:
+  version "15.0.12"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.12.tgz#30722c7346e12d0a2d0207ab9b0c4f0102d86c4e"
+  integrity sha512-8dD6FusOQSrpv9Z1rdNMdlSgQOIP880DHqnohobOmYLElGEqAL/JvxvuxZO16r4HtjTlfPRDC1hbvxC9dPN2nA==
 
 math-intrinsics@^1.1.0:
   version "1.1.0"
@@ -3982,7 +4002,7 @@ next-tick@^1.1.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.1.0.tgz#1836ee30ad56d67ef281b22bd199f709449b35eb"
   integrity sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==
 
-node-emoji@^2.1.3:
+node-emoji@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.2.0.tgz#1d000e3c76e462577895be1b436f4aa2d6760eb0"
   integrity sha512-Z3lTE9pLaJF47NyMhd4ww1yFTAP8YhYI8SleJiHzM46Fgpm5cnNzSl9XfzFNqbaz+VlJrIj3fXQ4DeN1Rjm6cw==
@@ -5142,14 +5162,14 @@ safe-regex-test@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release@24.1.0:
-  version "24.1.0"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.1.0.tgz#da799e6def44a0c3708fa1cfc2685d20e29b0f83"
-  integrity sha512-FwaE2hKDHQn9G6GA7xmqsc9WnsjaFD/ppLM5PUg56Do9oKSCf+vH6cPeb3hEBV/m06n8Sh9vbVqPjHu/1onzQw==
+semantic-release@24.2.5:
+  version "24.2.5"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-24.2.5.tgz#06765f427b0e94e9e008e96ba7abf6a56ca8e59e"
+  integrity sha512-9xV49HNY8C0/WmPWxTlaNleiXhWb//qfMzG2c5X8/k7tuWcu8RssbuS+sujb/h7PiWSXv53mrQvV9hrO9b7vuQ==
   dependencies:
     "@semantic-release/commit-analyzer" "^13.0.0-beta.1"
     "@semantic-release/error" "^4.0.0"
-    "@semantic-release/github" "^10.0.0"
+    "@semantic-release/github" "^11.0.0"
     "@semantic-release/npm" "^12.0.0"
     "@semantic-release/release-notes-generator" "^14.0.0-beta.1"
     aggregate-error "^5.0.0"
@@ -5162,11 +5182,11 @@ semantic-release@24.1.0:
     get-stream "^6.0.0"
     git-log-parser "^1.2.0"
     hook-std "^3.0.0"
-    hosted-git-info "^7.0.0"
-    import-from-esm "^1.3.1"
+    hosted-git-info "^8.0.0"
+    import-from-esm "^2.0.0"
     lodash-es "^4.17.21"
-    marked "^12.0.0"
-    marked-terminal "^7.0.0"
+    marked "^15.0.0"
+    marked-terminal "^7.3.0"
     micromatch "^4.0.2"
     p-each-series "^3.0.0"
     p-reduce "^3.0.0"
